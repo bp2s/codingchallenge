@@ -6,20 +6,20 @@ Their list have been stored into the ethereum blockchain.
 
 But, now they want to be able to see them in a web application....Would you be kind enough to help them ?
 
-Your challenge, if you accept it, is to create a **_quick & dirty_** application that displays the list of the todos.
+Your challenge, if you accept it, is to create a **_quick & dirty_** application that displays the todos.
 
 ### Features
-*  the list of the todos is depending of the user makin a request.
+*  the list of the todos is dependant of the user
 *  each user knows only his/her name (no particular IDs...)
 *  todos are limited to only 3
-*  if you can implement the addition of new todos, it's a big plus !
+*  if you can implement the addition of new todos, it would be great !
+
+## 2) What to do ?
 
 ### Diagram
 Here are the components to implement :
 
 ![alt text](https://github.com/bp2s/codingchallenge/blob/master/Diagram.png "Diagram")
-
-## 2) What to do ?
 
 ### Web Front
 * in javascript / typescript
@@ -36,8 +36,9 @@ Here are the components to implement :
 
 ## 3) What's expected ?
 
-What we would like you to shows is :
-* technical approach (frameworks, tools, ...)
+We would like you to show us :
+* how you interact with other actors
+* your technical approach (frameworks, tools, ...)
 * the code !
 
 Try to deliver a fully functionnal application, but if you're lacking time, don't panic ! 
