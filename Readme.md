@@ -1,22 +1,50 @@
-# Coding Challenge
+# Coding Challenge !
 
-## Use Case
-Display a list of todos for a specific user
+## 1) Use Case
+Alice, Bob and Carlos have each a todo-list.
+Their list have been stored into the ethereum blockchain.
 
-## Diagram
-The components to implement :
+But, now they want to be able to see them in a web application....Would you be kind enough to help them ?
+
+Your challenge, if you accept it, is to create a **_quick & dirty_** application that displays the list of the todos.
+
+### Features
+*  the list of the todos is depending of the user makin a request.
+*  each user knows only his/her name (no particular IDs...)
+*  todos are limited to only 3
+*  if you can implement the addition of new todos, it's a big plus !
+
+### Diagram
+Here are the components to implement :
 
 ![alt text](https://github.com/bp2s/codingchallenge/blob/master/Diagram.png "Diagram")
 
-## Web Front
+## 2) What to do ?
+
+### Web Front
 * in javascript / typescript
-* 
+* UX/UI to design
 
-## Backend
+### Backend
 * in java
-* log all the access requests in local storage
+* stores the relation name <-> ID
+* audit trail of all requests
 
-## API
+### API
 * Already available and started
 * Not documented yet
 
+## 3) What's expected ?
+
+What we would like you to shows is :
+* technical approach (frameworks, tools, ...)
+* the code !
+
+Try to deliver a fully functionnal application, but if you're lacking time, don't panic ! 
+
+The main objective is to see how you manage problems, and work as a team. There is no good or bad answer, the principle is the method.
+
+To help, we are at your disposal :
+* Khai Uy (Product Owner)
+* Patricia (Functional Leader)
+* Vincent (IT Advisor) 
