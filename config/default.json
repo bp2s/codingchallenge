@@ -1,5 +1,5 @@
 {
-    "provider" : "https://rinkeby.infura.io/xxxx",
+    "provider" : "https://rinkeby.infura.io/***REMOVED***",
     "smartcontractaddress" : "0x2c3cdcb65d55330ca3aa4d168b39de0c18632945",
     "owner" : "0x152db93090e334cf5ab6dfc27580ebf10271800e"
 }
