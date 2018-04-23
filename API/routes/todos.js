@@ -3,7 +3,6 @@ var router = express.Router();
 var config = require('config');
 
 var Web3 = require('web3')
-//var web3 = new Web3("http://127.0.0.1:8545");
 
 var web3 = new Web3(new Web3.providers.HttpProvider(config.get('provider')));
 

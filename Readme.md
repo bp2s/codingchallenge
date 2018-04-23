@@ -1,3 +1,9 @@
+# Coding Challenge
+
+
+
+
+## API
 before starting, verify:
 
     config/default.json
@@ -5,3 +11,4 @@ before starting, verify:
 then run the app:
 
      $ DEBUG=coding-challenge:* npm start
+
