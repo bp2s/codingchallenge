@@ -1,4 +1,5 @@
 pragma solidity ^0.4.21;
+//pragma experimental ABIEncoderV2;
 
 contract todos {
     
@@ -21,10 +22,8 @@ contract todos {
         todosmap[msg.sender] = todo(_todo1, _todo2, _todo3);
     }
     
-    function getTodos (address _add) public view returns (string _todo1, string _todo2, string _todo3){
-        _todo1 = todosmap[_add].todo1;
-        _todo2 = todosmap[_add].todo2;
-        _todo3 = todosmap[_add].todo3;
+    function getTodos(address _add) public view returns (string, string, string) {
+        return (todosmap[_add].todo1, todosmap[_add].todo2, todosmap[_add].todo3);
     }
     
 }

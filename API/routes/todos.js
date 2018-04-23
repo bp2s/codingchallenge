@@ -12,13 +12,12 @@ var todoscontract = new web3.eth.Contract(abi, config.get('smartcontractaddress'
 
 /* GET todos listing. */
 router.get('/', function (req, res, next) {
-  
   // console.log(req.query)
   // todoscontract.methods.todosmap(req.query.user).call()
   todoscontract.methods.getTodos(req.query.user).call()
     .then(function (result) {
       // console.log(result)
-      res.send(result)
+      res.json(result)
     })
 });
 
