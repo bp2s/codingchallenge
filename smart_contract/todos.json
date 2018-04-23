@@ -1,0 +1,98 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_todo1",
+				"type": "string"
+			},
+			{
+				"name": "_todo2",
+				"type": "string"
+			},
+			{
+				"name": "_todo3",
+				"type": "string"
+			}
+		],
+		"name": "addTodo",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_add",
+				"type": "address"
+			}
+		],
+		"name": "getTodos",
+		"outputs": [
+			{
+				"name": "_todo1",
+				"type": "string"
+			},
+			{
+				"name": "_todo2",
+				"type": "string"
+			},
+			{
+				"name": "_todo3",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "owner",
+		"outputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "todosmap",
+		"outputs": [
+			{
+				"name": "todo1",
+				"type": "string"
+			},
+			{
+				"name": "todo2",
+				"type": "string"
+			},
+			{
+				"name": "todo3",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
