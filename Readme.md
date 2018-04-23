@@ -1,6 +1,10 @@
 # Coding Challenge
 
+# Use Case
 
+# Diagram
+
+![alt text](https://github.com/bp2s/codingchallenge/blob/master/Diagram.png "Diagram")
 
 
 ## API
