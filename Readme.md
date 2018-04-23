@@ -1,18 +1,22 @@
 # Coding Challenge
 
-# Use Case
+## Use Case
+Display a list of todos for a specific user
 
-# Diagram
+## Diagram
+The components to implement :
 
 ![alt text](https://github.com/bp2s/codingchallenge/blob/master/Diagram.png "Diagram")
 
+## Web Front
+* in javascript / typescript
+* 
+
+## Backend
+* in java
+* log all the access requests in local storage
 
 ## API
-before starting, verify:
-
-    config/default.json
-
-then run the app:
-
-     $ DEBUG=coding-challenge:* npm start
+* Already available and started
+* Not documented yet
 
