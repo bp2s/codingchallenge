@@ -4,9 +4,9 @@
 Alice, Bob and Carlos have each a todo-list.
 Their list have been stored into the ethereum blockchain.
 
-But, now they want to be able to see them in a web application....Would you be kind enough to help them ?
+But, now they want to be able to see them in a web application....Can you help them ?
 
-Your challenge, if you accept it, is to create a **_quick & dirty_** application that displays the todos.
+Your challenge, if you accept it, is to create a _quick & dirty_ application that displays the todos.
 
 ### Features
 *  the list of the todos is dependant of the user
