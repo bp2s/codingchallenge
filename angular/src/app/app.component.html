@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <div><button class="user" (click)="showTodo('Bob')">Bob</button></div>
+  <div><button class="user" (click)="showTodo('Alice')">Alice</button></div>
+  <div><button class="user" (click)="showTodo('Carlos')">Carlos</button></div>
+</div>
+
+<ul>
+  <li *ngFor="let todo of todos">
+    <div>{{todo}}</div>
+  </li>
+</ul>

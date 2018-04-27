@@ -1,2 +1,5 @@
 node_modules/
 ..bfg-report/
+target/
+.settings
+yarn-error.log
