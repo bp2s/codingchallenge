@@ -21,4 +21,9 @@ router.get('/', function (req, res, next) {
     })
 });
 
+router.post('/addtodo', function (req, res, next) {
+  console.log(req.body);      // your JSON
+  res.send(req.body);    // echo the result back  
+});
+
 module.exports = router;
