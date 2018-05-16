@@ -1,18 +1,21 @@
 # Coding Challenge !
 
 ## 1) Use Case
-Alice, Bob and Carlos have each a todo-list.
-Their list have been stored into the ethereum blockchain.
+Alice, Bob and Carlos have each a todo-list per day.
+Their tasks are stored into the a centralized DB
 
 But, now they want to be able to see them in a web application....Can you help them ?
+Even more they want to be able to create and assign new tasks
+Even more they want to ensure no one is overloaded of work
 
-Your challenge, if you accept it, is to create a _quick & dirty_ application that displays the todos.
+Your challenge, if you accept it, is to create a _quick & dirty_ application that will help them handle this
 
 ### Features
 *  the list of the todos is dependant of the user
 *  each user knows only his/her name (no particular IDs...)
 *  todos are limited to only 3
-*  implement the addition of new todos
+*  adding new to dos
+*  assign new to dos
 
 ## 2) What to do ?
 
@@ -31,8 +34,7 @@ Here are the components to implement :
 * audit trail of all requests
 
 ### API
-* Already available and started
-* Not documented yet
+* To put in place in order to expose what is store in the centralized DB
 
 ## 3) What's expected ?
 
@@ -46,6 +48,6 @@ Try to deliver a fully functionnal application, but if you're lacking time, don'
 The main objective is to see how you manage problems, and work as a team. There is no good or bad answer, the principle is the method.
 
 To help, we are at your disposal :
-* Khai Uy (Product Owner)
-* Patricia (Functional Leader)
-* Vincent (IT Advisor) 
+* Patricia (Product Owner)
+* Patricia (UX Designer)
+
