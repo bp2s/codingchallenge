@@ -1,5 +1,5 @@
 {
     "provider" : "http://localhost:8545",
-    "smartcontractaddress" : "0x408ff021d8f5caa072505a742421597ebc9e4ebb",
-    "owner" : "0x53edb7c73305ffc481d4922b7e690bdb045104d5"
+    "smartcontractaddress" : "0x8cdaf0cd259887258bc13a92c0a6da92698644c0",
+    "owner" : "0x627306090abab3a6e1400e9345bc60c78a8bef57"
 }
