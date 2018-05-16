@@ -12,7 +12,7 @@ Your challenge, if you accept it, is to create a _quick & dirty_ application tha
 *  the list of the todos is dependant of the user
 *  each user knows only his/her name (no particular IDs...)
 *  todos are limited to only 3
-*  if you can implement the addition of new todos, it would be great !
+*  implement the addition of new todos
 
 ## 2) What to do ?
 
