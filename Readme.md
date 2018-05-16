@@ -1,51 +1,42 @@
-# Coding Challenge !
+# formeritis
+TestTeam
 
-## 1) Use Case
-Alice, Bob and Carlos have each a todo-list.
-Their list have been stored into the ethereum blockchain.
+Helli hello
 
-But, now they want to be able to see them in a web application....Can you help them ?
+## Descriptif
+2 composants dans le même repo
 
-Your challenge, if you accept it, is to create a _quick & dirty_ application that displays the todos.
+- client : angular-cultydata-webapp
+- server : cydbridge
 
-### Features
-*  the list of the todos is dependant of the user
-*  each user knows only his/her name (no particular IDs...)
-*  todos are limited to only 3
-*  if you can implement the addition of new todos, it would be great !
+Le client est autome et utilise une InMemoryDataBase fourni par les lib core d'angular
+Le server est du spring boot (y avait dedans du mqtt/kafka/influxdb mais j'ai désinjecté les services)...du coup il ne reste que le contrôller et un service de catalog (...le swagger est déjà dans le server)
 
-## 2) What to do ?
+## Build Client :
 
-### Diagram
-Here are the components to implement :
+Le client a été buildé avec :
+Angular CLI: 1.7.4
+Node: 8.1.2
+npm 5.8.0
 
-![alt text](https://github.com/bp2s/codingchallenge/blob/master/Diagram.png "Diagram")
+- Cloner le repo : git clone https://github.com/CULTYDATA/formeritis.git
+- Se mettre sur angular-cultydata-webapp et faire un : npm install
+- Monter le server de de : ng serve
 
-### Web Front
-* in javascript / typescript
-* UX/UI to design
+=> localhost:4200
 
-### Backend
-* in java
-* stores the relation name <-> ID
-* audit trail of all requests
+## Build Server :
 
-### API
-* Already available and started
-* Not documented yet
+Spring boot 2 et java 8
 
-## 3) What's expected ?
+- Se mettre sur cydbridge : mvn clean install
+- Deployement dev : mvn spring-boot:run
 
-We would like you to show us :
-* how you interact with other actors
-* your technical approach (frameworks, tools, ...)
-* the code !
+## Remarques 
 
-Try to deliver a fully functionnal application, but if you're lacking time, don't panic ! 
+-
 
-The main objective is to see how you manage problems, and work as a team. There is no good or bad answer, the principle is the method.
 
-To help, we are at your disposal :
-* Khai Uy (Product Owner)
-* Patricia (Functional Leader)
-* Vincent (IT Advisor) 
+
+
+
