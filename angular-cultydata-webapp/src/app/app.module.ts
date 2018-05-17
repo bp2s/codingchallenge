@@ -19,6 +19,7 @@ import { ProductSearchComponent } from './product-search/product-search.componen
 import { LoginComponent } from './login/login.component';
 import {UserService} from "./user.service";
 import { TasksComponent } from './tasks/tasks.component';
+import {TaskService} from "./task.service";
 
 
 
@@ -46,7 +47,7 @@ import { TasksComponent } from './tasks/tasks.component';
       InMemoryDataService, { dataEncapsulation: false }
     )
   ],
-  providers: [ProductService, MessageService, UserService],
+  providers: [ProductService, MessageService, UserService, TaskService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

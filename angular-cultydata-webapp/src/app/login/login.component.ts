@@ -20,8 +20,8 @@ export class LoginComponent {
   login() {
     if (this.service.login(this.name, this.pass)) {
       this.message = '';
-      this.router.navigate(['/dashboard']);
-    }else {
+      this.router.navigate(['/dashboard', this.name]);
+    } else {
       this.message = 'Unknown user';
     }
   }
