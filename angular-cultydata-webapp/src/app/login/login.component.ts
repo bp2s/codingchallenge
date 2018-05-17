@@ -11,6 +11,7 @@ export class LoginComponent {
 
   name: string;
   pass: string;
+  message: string;
 
   constructor(private service: UserService, private router: Router) {
   }
@@ -18,7 +19,10 @@ export class LoginComponent {
 
   login() {
     if (this.service.login(this.name, this.pass)) {
+      this.message = '';
       this.router.navigate(['/dashboard']);
+    }else {
+      this.message = 'Unknown user';
     }
   }
 
