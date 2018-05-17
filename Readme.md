@@ -12,6 +12,7 @@ Helli hello
 Le client est autome et utilise une InMemoryDataBase fourni par les lib core d'angular
 Le server est du spring boot (dans le squelette utilisé, il y avait dedans du mqtt/kafka/influxdb mais j'ai désinjecté les services)...du coup il y a :
 Un task controller qui implement : /api/tasks?username en tapant dans une fake blockcahain accessible via BlockChainServices
+Un service http a été aussi developper pour interoger le vrai service blockchain
 
 
 ## Build Client :
