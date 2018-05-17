@@ -16,6 +16,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService }  from './in-memory-data.service';
 import { ProductSearchComponent } from './product-search/product-search.component';
+import { LoginComponent } from './login/login.component';
+import {UserService} from "./user.service";
 
 
 
@@ -26,14 +28,15 @@ import { ProductSearchComponent } from './product-search/product-search.componen
     ProductDetailComponent,
     MessagesComponent,
     DashboardComponent,
-    ProductSearchComponent
+    ProductSearchComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule,
     HttpClientModule,
-    
+
     // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
     // and returns simulated server responses.
     // Remove it when a real server is ready to receive requests.
@@ -41,7 +44,7 @@ import { ProductSearchComponent } from './product-search/product-search.componen
       InMemoryDataService, { dataEncapsulation: false }
     )
   ],
-  providers: [ProductService, MessageService],
+  providers: [ProductService, MessageService, UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
