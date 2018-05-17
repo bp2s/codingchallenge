@@ -18,6 +18,7 @@ import { InMemoryDataService }  from './in-memory-data.service';
 import { ProductSearchComponent } from './product-search/product-search.component';
 import { LoginComponent } from './login/login.component';
 import {UserService} from "./user.service";
+import { TasksComponent } from './tasks/tasks.component';
 
 
 
@@ -29,7 +30,8 @@ import {UserService} from "./user.service";
     MessagesComponent,
     DashboardComponent,
     ProductSearchComponent,
-    LoginComponent
+    LoginComponent,
+    TasksComponent
   ],
   imports: [
     BrowserModule,
