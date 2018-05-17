@@ -24,7 +24,7 @@ public class CydbridgeApplication {
 	@Bean
 	public Docket newsApi() {
 		return new Docket(DocumentationType.SWAGGER_2).groupName("TESTSWAGGER").apiInfo(apiInfo()).select()
-				.paths(regex("/serv.*")).build();
+				.paths(regex("/api.*")).build();
 	}
 
 	private ApiInfo apiInfo() {

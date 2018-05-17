@@ -2,8 +2,9 @@ package com.cultydata.service;
 
 public interface Iservice {
 	
-	String getProductFromCatalog(String id);
+	String getUserFromBlockChain(String accountId);
 	
-	String getCatalog();
+	String getUserFromBlockChainFake(String accountId);
+	
 	
 }
